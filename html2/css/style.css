@@ -1,0 +1,121 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #565;
+}
+html {
+  background: #fff;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header, Logo area & nav bar*/
+header {
+  padding: 30px 0px;
+}
+header ul,
+header h1 {
+  display: inline;
+}
+header ul {
+  float: right;
+  margin-right: 10px;
+}
+header ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 10px;
+  padding: 5px;
+  border: 1px solid #555;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #555;
+}
+
+.header-img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 300px;
+}
+
+
+/* Dashboard Metrics*/
+.block {
+  width: 400px;
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  padding: 2%;
+  margin-right: 2%;
+  vertical-align:top;
+}
+
+.block h3 {
+    text-decoration:underline;
+}
+
+.block table {
+    width:100%;
+}
+
+.block table tr {
+    text-align:left;
+}
+
+.block table tr th {
+    border-bottom:1px solid #fff;
+
+}
+
+.naughty-list {
+    list-style-type:upper-alpha
+}
+
+#special-link {
+    background:yellow;
+
+}
+
+
+
+/* Form */
+
+.form-container {
+    background:#555;
+    color:#fff;
+    padding:10px;
+}
+
+.form-container h2 {
+    color:orange;
+}
+
+form input {
+    padding:2px;
+    margin-bottom:10px;
+}
+
+/* Footer section*/
+.footer {
+  background: #000;
+  color: #fff;
+  position:relative;
+  bottom:0;
+  width:96%;
+  margin: 50px 0 0 0;
+  padding:30px
+  
+}
+
