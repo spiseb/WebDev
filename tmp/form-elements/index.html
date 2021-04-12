@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #wrapper {
+            padding:1em;
+            background:#f0f0f0;
+            width:40%;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+
+        <form action="post.php" method="POST">
+            <fieldset>
+                <legend>Login</legend>
+                <input type="text" placeholder="Username" name="username"><br>
+                <input type="password" placeholder="Password" name="password"><br>
+                <label>City: </label>
+                <select>
+                    <option name="brussels">Brussels</option>
+                    <option name="antwerp">Antwerp</option>
+                    <option name="ghent">Ghent</option>
+                </select><br>
+
+                <label>Role: </label>
+                <select>
+                    <option name="admin">Admin</option>
+                    <option name="user">User</option>
+                    <option name="guest">Guest</option>
+                </select><br>
+            <input type="submit" value="Send" />
+            </fieldset>
+            
+            
+        </form>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+/* Style Reset*/
+
+* {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    text-decoration:none;
+
+}
+
+/*Header, Logo & Nav*/
+header {
+   background:url('https://picsum.photos/1200/300');
+    background-size:cover;
+    width:100%;
+    height:500px;
+    
+}
+
+.logo,
+.navbar {
+    padding:30px;
+    color:#fff;
+    text-shadow:1px 1px 2px #000;
+
+}
+
+.logo {
+    float:left;
+    padding:5px;
+    border:4px solid #fff;
+    margin:20px 50px
+}
+.navbar {
+    float:right;
+}
+
+.navbar li {
+    display:inline;
+    margin:0 15px;
+}
+
+.navbar li a {
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+    text-transform:uppercase;
+}
+
+
+
+/* Blog Section*/
+
+.blog {
+    width:80%;
+    margin:0 auto;
+
+}
+
+.post-item {
+    height:250px;
+    width:auto;
+    background:#f9f9f9;
+    margin:50px;
+    box-shadow:1px 1px 5px #e4e4e4;
+    border-radius:5px;
+    
+    
+}
+
+.post-item img {
+    width:250px;
+    height:100%;
+    float:left;
+}
+
+.post-item-content {
+    padding: 20px;
+    width:79%;
+    float:left;
+}
+
+
+.post-date {
+    margin-bottom:20px;
+}
+.read-more {
+    width:100px;
+    padding:10px;
+    margin-top:20px;
+    background:#333333;
+    float:right;
+    text-align:center;
+    border:1px solid #fff;
+}
+
+.read-more a {
+    color:#fff;
+
+}
+
+
+
+
+
+/*Footer*/
+footer {
+    width:100%;
+    height:300px;
+    background:#333;
+
+}
+
+fieldset {
+    
+    width:65%;
+    padding:20px;
+    margin:50px auto;
+}
+
+legend h3 {
+    text-transform: uppercase;
+}
+.footer-1,
+.footer-2 {
+
+    width:49%;
+    height:250px;
+    float:left;
+    color:#fff;
+    
+
+}
+
+.footer-2 i {
+    font-size:25px;
+    margin:0 30px;
+}
+
+
+.footer-3 {
+    width:100%;
+    text-align:center;
+    color:#fff;
+    clear:both;
+}
+
+
+
+.footer-3 a {
+    color:#fff;
+}
+
