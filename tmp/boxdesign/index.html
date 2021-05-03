@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link href="css/style.css" rel="stylesheet" type="text/css" /> -->
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/rounded');
+
+* {
+margin:0;
+padding:0;
+text-decoration:none;
+font-family:sans-serif;
+list-style-type:none;
+}
+
+html{
+background:#f0f0f0;
+
+
+}
+
+body {
+background:#f9f9f9;
+margin:0 auto;
+width:80%;
+height:100vh;
+
+
+}
+
+header {
+height:50px;
+border-bottom:1px solid #333;
+padding:10px 0;
+background:#395d3d;
+
+}
+
+.logo {
+font-family: 'round', sans-serif;
+float:left;
+margin: 10px 0 0 15px;
+color:#fff;
+}
+nav {
+float:right;
+margin:15px;
+}
+
+nav ul li{
+display:inline-block;
+margin:0px 10px;
+text-transform: lowercase;
+transition:0.5s
+
+
+}
+nav ul li:hover {
+border-bottom:1px solid #fff;
+transition:0.5s
+}
+
+nav ul li a {
+color:#fff;
+font-weight:500;
+}
+
+.wrapper {
+
+display:flex;
+justify-content:center;
+}
+
+
+.box {
+width:320px;
+height:auto;
+border: 1px solid #bbb;
+margin:50px auto;
+border-radius:5px;
+box-shadow: 3px 10px 10px #cccccc;
+
+}
+
+
+.box h3 {
+color:#395d3d;
+text-transform:uppercase;
+}
+
+.box h3,
+.box p {
+padding:20px;
+}
+
+.box p {
+color:#555;
+}
+
+.box p:nth-child(4) {
+text-align:right;
+}
+
+.box p a {
+background:#395d3d;
+color:#fff;
+text-transform:uppercase;
+padding:10px;
+border-radius:5px;
+font-size:12px;
+
+/* fallback from hover*/
+transition:0.5s;
+
+
+}
+
+.box p a i {
+margin-left:10px;
+font-size:12px;
+}
+.box p a:hover {
+background: #2ec53f;
+transition:0.5s;
+}
+
+
+    </style>
+    <title>Box Design</title>
+</head>
+
+<body>
+<header>
+    <h1 class="logo">S-ENTIAL</h1>
+    <nav>
+        <ul>
+            <li><a href="#">#Blog</a></li>
+            <li><a href="#">#Projects</a></li>
+            <li><a href="#">#Experiences</a></li>
+            <li><a href="#">#Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="wrapper">
+    <div class="box">
+        <div class="img-overlay">
+            <img src="https://picsum.photos/320/200" width="100%" />
+        </div>
+        <h3>Article Title</h3>
+        <p>Nothing very captivating, just something long enough to keep you captivated until the end of this sentence</p>
+        <p><a href="#" class="btn-1">Read More<i class="fa fa-arrow-right"></i></a></p>
+    </div>
+
+    <div class="box">
+        <div class="img-overlay">
+            <img src="https://picsum.photos/320/200" width="100%" />
+        </div>
+        <h3>Article Title</h3>
+        <p>Nothing very captivating, just something long enough to keep you captivated until the end of this sentence</p>
+        <p><a href="#" class="btn-1">Read More<i class="fa fa-arrow-right"></i></a></p>
+    </div>
+
+    <div class="box">
+        <div class="img-overlay">
+            <img src="https://picsum.photos/320/200" width="100%" />
+        </div>
+        <h3>Article Title</h3>
+        <p>Nothing very captivating, just something long enough to keep you captivated until the end of this sentence</p>
+        <p><a href="#" class="btn-1">Read More<i class="fa fa-arrow-right"></i></a></p>
+    </div>
+</div>
+
+
+
+</body>
+</html>

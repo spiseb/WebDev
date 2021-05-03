@@ -1,0 +1,113 @@
+
+
+.jumbotron-main {
+    margin-top:-120px;
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/6397652/pexels-photo-6397652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size:cover;
+    vertical-align:middle;
+    margin-bottom:0;
+}
+
+.jumbotron-main > .container {
+    margin-top: 100px !important;
+}
+
+
+
+#news {
+    height:100vh;
+}
+
+.card:hover {
+    box-shadow:1px 1px 10px #ffc107;
+    transition:0.5s;
+    /* background:rgba(63, 156, 243,0.1); */
+    cursor:pointer;
+}
+.card {
+    height:500px;
+    transition:0.5s;
+}
+
+.logo {
+    filter: invert(100%);
+    height:70px;
+}
+
+.modal-header,
+.modal-footer,
+.close {
+    background:#333;
+    color:#fff;
+    /* border-radius:2%; */
+    
+}
+
+.modal-content {
+    border:2px solid #333;
+}
+
+/* .modal-dialog {
+    box-shadow:1px 1px 10px #fff;
+    border:none
+} */
+
+
+.waves {
+    margin-top:-450px !important; 
+    background:transparent;
+
+}
+
+.bg-yellow {
+
+    background:linear-gradient(#ffc107,#984600)
+}
+
+
+
+/* Buttons */
+
+.btn {
+    background:linear-gradient(#ffc107,#984600);
+    color:#fff;
+    border-color: orange;
+}
+
+.journey-title {
+    text-shadow: 2px 2px #984600;
+}
+
+
+.cta {
+    height:400px;
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/6397652/pexels-photo-6397652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size:cover;
+    width:100%;
+}
+
+.cta h3 {
+    margin:100px auto;
+    text-align:center;
+    color:#ffc107 !important;
+
+}
+
+
+.page-item.active .page-link {
+    background: #ffc107;
+    border-color:orange;
+    color:#f0f0f0;
+}
+
+.page-link,
+.page-link:hover {
+    color:#333;
+}
+
+.card-btn {
+    position:absolute;
+    right:3%;
+    top:90%;
+}

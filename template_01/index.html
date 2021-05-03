@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Template 01</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="./css/style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Nav tabs -->
+
+    <header>
+      <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <a href="/" class="navbar-brand text-white">
+            <img class="logo px-2 mb-3" src="https://static.thenounproject.com/png/543614-200.png"><span style="color:#ffc107;font-size:25px">INTEC</span> MUSSELS</a>
+        <div class="nav navbar-nav ml-auto ">
+            <a class="nav-item nav-link active" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="aboutus.html">About Us</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="jumbotron jumbotron-main jumbotron-fluid text-white">
+      <div class="container text-center py-5 my-5">
+        <h1 class="display-4"><pre class="text-white">select <span style="color:#ffc107">'Mussels'</span><br> from <span style="color:#ffc107">'Brussels'</span></pre> </h1>
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, numquam! </p>
+        <p class="lead">
+          <a
+            class="btn btn-outline-light btn-lg"
+            data-toggle="modal" data-target="#bookTable"
+            href="#"
+            role="button"
+            ><i class="fa fa-table" aria-hidden="true"></i>
+            Book your table</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="container-fluid m-0 p-0 waves">
+        <svg height="100%" width="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,133 0,133 C 47.978014428031585,111.93232566128478 95.95602885606317,90.86465132256957 168,84 C 240.04397114393683,77.13534867743043 336.1538990037788,84.4737203710065 413,109 C 489.8461009962212,133.5262796289935 547.4283751288216,175.24046719340433 618,178 C 688.5716248711784,180.75953280659567 772.1326004809346,144.56441085537614 848,134 C 923.8673995190654,123.43558914462385 992.0412229474405,138.50188938509103 1057,134 C 1121.9587770525595,129.49811061490897 1183.7025077293026,105.42803160425971 1247,102 C 1310.2974922706974,98.57196839574029 1375.1487461353486,115.78598419787014 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#ffc1078f" class="transition-all duration-300 ease-in-out delay-150"></path><path d="M 0,400 C 0,400 0,266 0,266 C 75.40158021298524,291.89625558227414 150.80316042597047,317.7925111645483 216,306 C 281.1968395740295,294.2074888354517 336.1889385091034,244.72621092408107 401,248 C 465.8110614908966,251.27378907591893 540.4410855376159,307.3026451391275 616,305 C 691.5589144623841,302.6973548608725 768.0467193404327,242.06320851940913 841,220 C 913.9532806595673,197.93679148059087 983.3720371006527,214.444520783236 1045,242 C 1106.6279628993473,269.555479216764 1160.4651322569564,308.1587083476469 1225,314 C 1289.5348677430436,319.8412916523531 1364.767433871522,292.92064582617655 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#ffc107" class="transition-all duration-300 ease-in-out delay-150"></path></svg>    </div>
+
+
+    <!-- Modal - Book Your table -->
+        <!-- Button trigger modal -->
+   
+        
+        <!-- Modal -->
+        <div class="modal fade" id="bookTable" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                        <div class="modal-header">
+                                <h5 class="modal-title">Book your table</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                            </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form class="form">
+                                <div class="form-group">
+                                  <label for="">Time & Date</label>
+                                  <input type="date"
+                                    class="form-control" name="" id="">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="">Time slots</label>
+                                    <select class="form-control" name="" id="">
+                                      <option>18:00</option>
+                                      <option>19:00</option>
+                                      <option>20:00</option>
+                                      <option disabled>21:00</option>
+                                      <option>22:00</option>
+                                      <option>23:00</option>
+                                    </select>
+                                  </div>
+
+                                <div class="form-group">
+                                  <label for="">Number of eaters</label>
+                                  <select class="form-control" name="" id="">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                  </select>
+                                </div>
+
+                                <div class="form-group">
+                                  <label for="">Name of reservation</label>
+                                  <input type="text" class="form-control" name="" id="" >
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="">E-mail address</label>
+                                    <input type="email" class="form-control" name="" id="">
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary">Book table </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            $('#exampleModal').on('show.bs.modal', event => {
+                var button = $(event.relatedTarget);
+                var modal = $(this);
+                // Use above variables to manipulate the DOM
+                
+            });
+        </script>
+    <!-- End of Modal -->
+
+    <div class="container-fluid mt-0 p-5 bg-yellow">
+     
+        
+        <div class="row">
+            <div class="offset-2 col-md-3 text-white">
+                <pre class="display-4 text-white journey-title">TecMus Style</pre>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusantium praesentium dignissimos perspiciatis, beatae, dolorum aliquid quae nemo, explicabo autem aperiam nostrum tenetur odio. Ratione quidem minus voluptates aliquam nesciunt.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni facere illum quidem qui beatae voluptate maiores aspernatur. Officia nulla blanditiis eius tenetur inventore non? Laudantium libero mollitia totam impedit illum!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sequi, ea consequuntur amet soluta illum similique officiis dolor illo fugit alias ipsa voluptas aut ipsam in repellat itaque. Esse, vitae.</p>
+            </div>
+            <div class=" col-md-3 text-white">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusantium praesentium dignissimos perspiciatis, beatae, dolorum aliquid quae nemo, explicabo autem aperiam nostrum tenetur odio. Ratione quidem minus voluptates aliquam nesciunt.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni facere illum quidem qui beatae voluptate maiores aspernatur. Officia nulla blanditiis eius tenetur inventore non? Laudantium libero mollitia totam impedit illum!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sequi, ea consequuntur amet soluta illum similique officiis dolor illo fugit alias ipsa voluptas aut ipsam in repellat itaque. Esse, vitae.</p>
+            </div>
+            <div class=" col-md-3 text-white">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusantium praesentium dignissimos perspiciatis, beatae, dolorum aliquid quae nemo, explicabo autem aperiam nostrum tenetur odio. Ratione quidem minus voluptates aliquam nesciunt.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni facere illum quidem qui beatae voluptate maiores aspernatur. Officia nulla blanditiis eius tenetur inventore non? Laudantium libero mollitia totam impedit illum!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sequi, ea consequuntur amet soluta illum similique officiis dolor illo fugit alias ipsa voluptas aut ipsam in repellat itaque. Esse, vitae.</p>
+            </div>
+        </div>
+    </div>
+    <div class="cta container-fluid p-5 m-auto bg-transparent">
+        <h3 class="display-4 mx-auto text-white">Mest Bussels of Brussels</h3>
+
+    </div>
+
+    <div class="container" id="news">
+        <div class="row p-3">
+            <div class="col-md-3"><hr></div>
+            <div class="col-md-6"><h3 class="display-4 text-center">Latest News</h3></div>
+            <div class="col-md-3"><hr></div>
+
+        </div>
+        
+
+        <div class="card-group">
+            <div class="card mx-2 rounded">
+                <img class="card-img-top" data-src="holder.js/100x180/" src="https://picsum.photos/300/150" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Title</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Published on: 12/05/2021</h6>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti odio repellat cum ab. Qui dicta esse, at natus soluta rem mollitia vel pariatur eaque. Eum deleniti necessitatibus recusandae id libero.</p>
+                    <a href="#" class="btn btn-outline-primary float-right card-btn">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="card mx-2 rounded">
+                <img class="card-img-top" data-src="holder.js/100x180/" src="https://picsum.photos/300/150" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Title</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Published on: 12/05/2021</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique et quaerat perspiciatis, necessitatibus deserunt laborum neque, aut ab eius, voluptatibus cum dolorem. Non, beatae! Voluptatum nulla tempore laudantium commodi maiores!</p>
+                    <a href="#" class="btn btn-outline-primary float-right card-btn">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+
+                </div>
+            </div>
+            <div class="card mx-2 rounded">
+                <img class="card-img-top" data-src="holder.js/100x180/" src="https://picsum.photos/300/150" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Title</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Published on: 12/05/2021</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit odit officiis amet? Explicabo tenetur illo repellat? Unde ipsa, qui debitis laudantium culpa officiis. Id unde debitis molestiae natus error.</p>
+                    <a href="#" class="btn btn-outline-primary float-right card-btn">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+
+                </div>
+            </div>
+
+
+
+      
+        </div>
+        <nav aria-label="Page navigation">
+            <ul class="pagination mt-4 float-right">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+ 
+    </div>
+
+
+
+<!-- 
+    <footer class="footer fixed-bottom">
+        <div class="container-fluid bg-dark text-light m-0">
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="display-4">Block</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="display-4">Block</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="display-4">Block</p>
+                </div>
+            </div>
+
+        </div>
+    </footer> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
