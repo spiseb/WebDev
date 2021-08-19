@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fullname": "Sebastien Spirito",
+      "email": "spirise@gmx.com"
+    },
+    {
+      "name": "Laetitia ",
+      "email": "laet@hotmail.com",
+      "_id": 1628150520880,
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "",
+      "_id": 1628155213869,
+      "id": 3
+    }
+  ]
+}

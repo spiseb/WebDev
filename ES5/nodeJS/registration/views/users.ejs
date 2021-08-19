@@ -1,0 +1,30 @@
+<%- include('partials/head.ejs') %>
+
+              <h1 class="display-3">Users</h1>
+
+
+              <table class="table">
+                  <thead>
+                      <tr>
+                          <th>Username</th>
+                          <th>Password</th>
+                          <th>E-mail</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+           
+                    <% data.forEach(function(user){ %>
+                                        
+                          <td scope="row">  <%= user.username %></td>
+                          <td>  <%= user.password %></td>
+                          <td>  <%= user.email %></td>
+                      </tr>
+                      <% }); %>
+                    </tbody>
+
+              </table>
+              <a href="/"><i class="fa fa-arrow-circle-left float-right fa-2x" aria-hidden="true"></i></a>
+            
+          </div>
+      </div>
+      <%- include('partials/footer.ejs') %>
